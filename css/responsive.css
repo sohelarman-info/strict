@@ -1,0 +1,54 @@
+/* Small (col) devices (landscape phones, 320px and up) */
+@media (min-width: 320px) and (max-width: 575px) { 
+    .banner_content h1 {
+        font-size: 30px;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: bold;
+        border-bottom: 2px solid #15a4fa;
+        padding-bottom: 10px;
+        margin-bottom: 30px;
+    }
+    .service_item {
+        text-align: center;
+        padding: 10px 0;
+    }
+    .work_header h2 {
+        font-size: 18px;
+        color: #2d3950;
+    }
+ }
+
+/* Small (col-xs) devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) { 
+    .banner_content h1 {
+        font-size: 60px;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: bold;
+        border-bottom: 2px solid #15a4fa;
+        margin-bottom: 30px;
+    }
+    .service_item {
+        text-align: center;
+        padding: 15px 0;
+    }
+    .work_header h2 {
+        font-size: 26px;
+        color: #2d3950;
+    }
+ }
+
+/* Medium (col-sm) devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) { ... }
+
+/* Large (col-md) devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) { ... }
+
+/* X-Large (col-lg) devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399px) { ... }
+
+/* XX-Large (col-xl) devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { ... }
+
+
